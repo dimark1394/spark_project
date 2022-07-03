@@ -37,7 +37,7 @@ waste_df = mean_df.filter("TYPE == 'Scrap Metal'")
 
 for name in waste_names:
     waste_temp = mean_df.filter("TYPE == '{}'".format(name))
-    waste_df = waste_df.merge]\
+    waste_df = waste_df.merge
 
 waste_df.show()
 
